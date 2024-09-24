@@ -18,7 +18,7 @@ const getSum = () => {
 	const cell=document.createElement("td");
 	cell.innerText=sum;
 	cell.colSpan=2;
-	cell.id="and"
+	cell.id="ans"
 	row.appendChild(cell);
 	table.appendChild(row)
 };
